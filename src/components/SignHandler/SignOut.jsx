@@ -6,7 +6,7 @@ import { doSignOut } from '../Firebase/auth';
 class SignOutButton extends Component {
   onClick = event => {
     doSignOut()
-    axios.post('http://localhost:5000/user/logout').then(res => console.log(res.data));
+    axios.post('https://fan-theory.herokuapp.com/user/logout').then(res => console.log(res.data));
     event.preventDefault();
     window.location = '/';
   }

@@ -26,7 +26,7 @@ class SignInPage extends Component {
 
     doSignInWithEmailAndPassword(email, password)
       .then(() => {
-        axios.post('http://localhost:5000/user/login').then(res => console.log(res.data));
+        axios.post('https://fan-theory.herokuapp.com/user/login').then(res => console.log(res.data));
         this.setState({
           email: '',
           password: '',

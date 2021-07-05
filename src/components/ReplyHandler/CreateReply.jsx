@@ -51,7 +51,7 @@ class Reply extends Component {
             comment_id: this.props.comment_id,
             votes: 0
         }
-        axios.post('http://localhost:5000/replys/add', reply)
+        axios.post('https://fan-theory.herokuapp.com/replys/add', reply)
             .then(res => console.log(res.data));
         this.setState({
                 reply: ""

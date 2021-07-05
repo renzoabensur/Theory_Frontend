@@ -7,14 +7,14 @@ function CommentsList(props) {
 
  useEffect(function effectFunction() {
     async function fetchComments() {
-      const response = await axios.get('http://localhost:5000/comments/')
+      const response = await axios.get('https://fan-theory.herokuapp.com/comments/')
       updateComments(response.data);
     }
     fetchComments();
   }, [comments]);
 
   function deleteComment(id) {
-    axios.delete('http://localhost:5000/comments/' + id)
+    axios.delete('https://fan-theory.herokuapp.com/comments/' + id)
       .then(response => { console.log(response.data) });
 
     this.setState({

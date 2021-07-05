@@ -16,7 +16,7 @@ class Post extends Component {
   upClick(e) {
     // e.preventDefault();
     this.props.post.votes += 1
-    axios.post('http://localhost:5000/posts/update/' + this.props.post._id, this.props.post)
+    axios.post('https://fan-theory.herokuapp.com/posts/update/' + this.props.post._id, this.props.post)
       .then(res => console.log(res.data));
     console.log(this.props.post._id)
     this.setState({
@@ -27,7 +27,7 @@ class Post extends Component {
   downClick(e) {
     // e.preventDefault();
     this.props.post.votes -= 1
-    axios.post('http://localhost:5000/posts/update/' + this.props.post._id, this.props.post)
+    axios.post('https://fan-theory.herokuapp.com/posts/update/' + this.props.post._id, this.props.post)
       .then(res => console.log(res.data));
     this.setState({
       countVotes: this.state.countVotes - 1

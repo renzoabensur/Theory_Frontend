@@ -23,7 +23,7 @@ class SignUpForm extends Component {
     
     doCreateUserWithEmailAndPassword(username,email, passwordOne)
     .then(() => {
-      axios.post('http://localhost:5000/user/login').then(res => console.log(res.data));
+      axios.post('https://fan-theory.herokuapp.com/user/login').then(res => console.log(res.data));
       window.location = '/';
     })
  

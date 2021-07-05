@@ -52,7 +52,7 @@ class Comments extends Component {
 
         console.log(comment);
 
-        axios.post('http://localhost:5000/comments/add', comment)
+        axios.post('https://fan-theory.herokuapp.com/comments/add', comment)
             .then(res => console.log(res.data));
         this.setState({
             comment: ""
@@ -69,7 +69,7 @@ class Comments extends Component {
     }
 
     render() {
-        axios.get('http://localhost:5000/user/status').then((res) => {
+        axios.get('https://fan-theory.herokuapp.com/user/status').then((res) => {
             this.setState({ LogedUser: res.data })
         });
         return (

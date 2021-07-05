@@ -28,7 +28,7 @@ export default class CreateExercise extends Component {
                 });
             }
         })
-        axios.get('http://localhost:5000/posts/' + this.props.match.params.id)
+        axios.get('https://fan-theory.herokuapp.com/posts/' + this.props.match.params.id)
             .then(response => {
                 this.setState({
                     username: response.data.username,
@@ -67,7 +67,7 @@ export default class CreateExercise extends Component {
 
         console.log(post);
 
-        axios.post('http://localhost:5000/posts/update/'+ this.props.match.params.id, post)
+        axios.post('https://fan-theory.herokuapp.com/posts/update/'+ this.props.match.params.id, post)
             .then(res => console.log(res.data));
 
         window.location = '/';

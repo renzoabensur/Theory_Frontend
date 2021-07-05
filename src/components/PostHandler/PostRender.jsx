@@ -17,7 +17,7 @@ class PostsList extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/posts/')
+    axios.get('https://fan-theory.herokuapp.com/posts/')
       .then(response => {
         this.setState({
           loading: false,
@@ -30,7 +30,7 @@ class PostsList extends Component {
   }
 
   deletePost(id) {
-    axios.delete('http://localhost:5000/posts/' + id)
+    axios.delete('https://fan-theory.herokuapp.com/posts/' + id)
       .then(response => { console.log(response.data) });
 
     this.setState({

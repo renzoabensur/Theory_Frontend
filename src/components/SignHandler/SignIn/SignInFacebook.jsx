@@ -11,7 +11,7 @@ const SignInFacebook = () => (
 class SignInFacebookButton extends Component {
   onClick = event => {
     doCreateUserWithFacebook().then((result) => {
-      axios.post('http://localhost:5000/user/login').then(res => console.log(res.data));
+      axios.post('https://fan-theory.herokuapp.com/user/login').then(res => console.log(res.data));
       window.location = '/';
     }).catch((error) => {
       console.log(error);

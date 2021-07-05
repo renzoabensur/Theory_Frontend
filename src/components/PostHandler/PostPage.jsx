@@ -23,7 +23,7 @@ export default class CreateExercise extends Component {
         });
       }
     })
-    axios.get('http://localhost:5000/posts/' + this.props.match.params.id)
+    axios.get('https://fan-theory.herokuapp.com/posts/' + this.props.match.params.id)
       .then(response => {
         this.setState({
           post: response.data,

@@ -74,7 +74,7 @@ export default class CreatePost extends Component {
 
             console.log(post);
 
-            axios.post('http://localhost:5000/posts/add', post)
+            axios.post('https://fan-theory.herokuapp.com/posts/add', post)
                 .then(res => console.log(res.data));
 
             window.location = '/';

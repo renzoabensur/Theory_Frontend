@@ -75,7 +75,7 @@ class NavigationNonAuth extends Component {
 
 function Navigation() {
   const [data, setData] = useState(null);
-  axios.get('http://localhost:5000/user/status').then((res) => {
+  axios.get('https://fan-theory.herokuapp.com/user/status').then((res) => {
     setData(res.data);
     console.log(res.data);
   });
