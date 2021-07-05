@@ -1,0 +1,469 @@
+header {
+    background-color: blue;
+}
+
+.margin{
+    margin-left: auto;
+}
+
+.navbar-center  {
+    display:flex;
+    justify-content:center;  
+    width: 100%;
+}
+
+.nav-link{
+    width: 76px;
+}
+
+.list-group{
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 240px;
+  text-align: center;
+}
+
+.col{
+  padding-left: 0px;
+}
+
+.header1{
+  border: none;
+  color: white;
+  background-color: #333;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.header1:hover{
+  background-color: #4CAF50;
+}
+
+.header2{
+  border: none;
+  margin-top: 6px;
+  color: white;
+  background-color: #333;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  float: right;
+}
+
+.header2:hover{
+  background-color: #4CAF50;
+}
+
+.headerIcon{
+  font-size: 15px;
+}
+
+.post-bar{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.card-style{
+  margin-top: 10px;
+}
+
+.card:hover{
+  border:1px solid green;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+  background-color: none;
+}
+
+.card-title{
+  color: black;
+}
+
+.card-text{
+  margin-bottom: 10px ;
+  color: black;
+}
+
+.modal-size { 
+  max-width: 90% !important; 
+}
+
+.modal-card{
+  left: 4%;
+  margin-bottom: 3px;
+}
+
+.body-card{
+  margin-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.comments-form{
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.comment-button:disabled{
+  margin-left: 69%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  border: none;
+  color: grey;
+  background-color: white;
+}
+
+.comment-button:disabled:hover{
+  margin-left: 69%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  border: none;
+  color: grey;
+  background-color: white;
+}
+
+.comment-button{
+  margin-left: 69%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #4CAF50;
+}
+
+.comment-button:hover{
+  margin-left: 69%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  border: none;
+  color: grey;
+  background-color: rgb(238, 230, 230);
+}
+
+.comments{
+  margin-left: 2% ;
+}
+
+.list-title{
+  color: aliceblue;
+}
+
+.search-post{
+  border-top-color: black;
+  padding-left: 70px;
+  padding-right: 65px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.search-post:hover{
+  border-style: solid;
+  border-color: #4CAF50;
+}
+
+.close-modal{
+  color: aliceblue;
+  padding: 10px 10px 10px 10px;
+  background-color: #4CAF50;
+  border-radius: 20px;
+}
+
+.close-modal:hover{
+  color: aliceblue;
+  padding: 10px 10px 10px 10px;
+  background-color: #4CAF50;
+  border-radius: 20px;
+}
+
+.reply-form{
+  margin: auto;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.text {
+  padding-bottom: 2%;
+}
+
+.comment-div{
+  margin-bottom: 20px;
+}
+
+.reply-div{
+  margin-bottom: 20px;
+}
+
+.reply:disabled {
+  margin-left: 69%;
+  border-radius: 5px;
+  border: none;
+  color: grey;
+  background-color: white;
+}
+
+.reply:disabled:hover {
+  margin-left: 69%;
+  border: none;
+  color: grey;
+  background-color: white;
+}
+
+.reply {
+  margin-left: 69%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #4CAF50;
+}
+
+.reply:hover {
+  border-radius: 5px;
+  color: grey;
+  background-color: rgb(238, 230, 230);
+}
+
+.reply-button {
+  border: none;
+  color: grey;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: white;
+}
+
+.reply-button:hover {
+  border-radius: 5px;
+  background-color: rgb(238, 230, 230);
+}
+
+.up-button{
+  border: none;
+  color: grey;
+  margin-right: 5px;
+  background-color: white;
+}
+
+.up-button:hover{
+  border-radius: 5px;
+  color: blue;
+  margin-right: 5px;
+  background-color: rgb(238, 230, 230);
+}
+
+.down-button{
+  border: none;
+  color: grey;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: white;
+}
+
+.down-button:hover{
+  border-radius: 5px;
+  color: red;
+  background-color: rgb(238, 230, 230);
+}
+
+
+.body-card{
+  padding-top: 0px;
+  margin-top: 10px ;
+  margin-left: 75px;
+}
+
+.google{
+  background-color: white;
+  width: 300px;
+  border-style: solid;
+  border-color: rgb(206, 203, 202);
+  border-width: 1px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.google:hover{
+  background-color: rgb(246, 244, 244);
+}
+
+.facebook{
+  background-color: white;
+  width: 300px;
+  border-style: solid;
+  border-color: rgb(206, 203, 202);
+  border-width: 1px;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 16px;
+}
+
+.facebook:hover{
+  background-color: rgb(246, 244, 244);
+}
+
+.senha-button{
+  border-width: 0px;
+  background-color: white;
+  color:rgb(158, 152, 152);
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+.senha-button:hover{
+  text-decoration: underline;
+}
+
+.input-login{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(206, 203, 202);
+  border-radius: 5px;
+  padding: 7px;
+  width: 270px;
+}
+
+.input-login:hover{
+  border-color: blue;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(158, 152, 152);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(158, 152, 152);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(158, 152, 152);
+}
+
+.p-login{
+  margin-bottom: 1px;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+
+.signin-button{
+  border: 0px;
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(46, 105, 255);
+  color: aliceblue;
+  margin-top: 15px;
+  margin-left: 45px;
+}
+
+.signin-button:disabled{
+  background-color: rgb(81, 128, 246);
+}
+.signin-button:disabled:hover{
+  background-color: rgb(81, 128, 246);
+}
+
+.signin-button:hover{
+  background-color: rgb(23, 88, 251);
+}
+
+.vertical-line{
+  border-left: 1px solid rgb(218, 214, 214);
+  margin-bottom: 16px;
+}
+
+.hr1{
+  margin:5px;
+  color: rgb(218, 214, 214);
+}
+
+.login-title{
+  margin-left: auto;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.google-facebook{
+  margin-top:50px
+}
+
+.signup-button{
+  border-width: 0px;
+  margin-top: 16px;
+  margin-left:30px;
+  padding: 5px 15px 5px 15px;
+  background-color: white;
+}
+
+.signup-button:hover{
+  border-radius: 15px;
+  background-color: rgb(246, 244, 244);
+}
+
+.signup{
+  border: 0px;
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(46, 105, 255);
+  color: aliceblue;
+  margin-top: 15px;
+  margin-bottom: 16px;
+}
+
+.signup:disabled{
+  background-color: rgb(81, 128, 246);
+}
+.signup:disabled:hover{
+  background-color: rgb(81, 128, 246);
+}
+
+.signup:hover{
+  background-color: rgb(23, 88, 251);
+}
+
+@media screen and (max-width: 1430px) {
+  .search-post {
+    width:200px;
+    padding-left: 55px;
+    padding-right: 0px;
+
+  }
+}
+@media screen and (max-width: 1115px) {
+  .search-post {
+    width:130px;
+    padding-left: 20px;
+    padding-right: 0px;
+
+  }
+}
+
+
+.postpage-title{
+  font-family: 'Alfa Slab One', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-button{
+  border: 0px;
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(46, 105, 255);
+  color: aliceblue;
+  margin-bottom: 16px;
+  margin-left: 65px;
+}
+
+.account{
+  margin-left: 200px;
+  margin-top: 50px;
+}
